@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  margin: 0;
+}
+.header {
+  background-color: #f9f7e8;
+  height: 88px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.slogan {
+  background-color: #d52047;
+  width: 100%;
+  height: 486px;
+}
+.about {
+  background-color: #eff8f6;
+  width: 100%;
+  height: 621px;
+}
+.features {
+  width: 100%;
+  height: 667px;
+}
+.footer {
+  background-color: #f9f7e8;
+  width: 100%;
+  height: 131px;
+}
+.logo {
+  margin: 0;
+  color: #000;
+  font-family: Courgette;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 165px;
+  padding-top: 24px;
+  max-width: 200px;
+}
+.logo1 {
+  color: #62bfad;
+}
+.butt {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  margin-left: 21px;
+}
+.butt_a {
+  text-decoration: none;
+  color: #000;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav_buttons{
+    max-width: 250px;
+
+}
+.nav{
+    max-width: 500px;
+    box-sizing: border-box;
+}
