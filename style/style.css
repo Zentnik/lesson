@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/limelight');
 body {
   margin: 0;
 }
 .header {
+  display: flex;
   background-color: #f9f7e8;
   height: 88px;
   width: 100%;
   box-sizing: border-box;
+  justify-content: start;
 }
 .slogan {
   background-color: #d52047;
@@ -36,9 +39,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 165px;
   padding-top: 24px;
   max-width: 200px;
+  padding-left: 165px;
 }
 .logo1 {
   color: #62bfad;
@@ -60,9 +63,161 @@ body {
 }
 .nav_buttons{
     max-width: 250px;
+    padding-top: 20px;
 
 }
 .nav{
     max-width: 500px;
     box-sizing: border-box;
+}
+.slogan_text{
+  color: #FFF;
+text-align: center;
+font-family: Limelight;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+max-width: 739px;
+margin: 0;
+margin-left: auto;
+margin-right: auto;
+padding-top: 198px;
+}
+.about_text{
+  margin: 0;
+  padding-left: 165px;
+  padding-top: 95px;
+  color: #D52047;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 40px;
+}
+.about-content{
+  display: flex;
+  justify-content: start;
+  background-color: #E5E5E5;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1110px;
+height: 348px;
+border-radius: 8px;
+}
+.about-description{
+  width: 555px;
+  height: 348px;
+}
+.about-img{
+  background-image: url(/img/about-image.jpg);
+  width: 555px;
+  height: 348px;
+}
+.title-about{
+  color: #000;
+font-family: Lato;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 24px;
+}
+.about-content-text{
+  color: #000;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 507px;
+height: 239px;
+padding-left: 22px;
+}
+.features-text{
+  color: #D52047;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 165px;
+padding-top: 70px;
+}
+.features-cards{
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  height: 409px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card{
+  width: 322px;
+height: 409px;
+border-radius: 8px;
+border: 2px solid #E5E5E5;
+background: #FFF;
+}
+.img-card{
+  width: 274px;
+height: 156px;
+text-align: center;
+margin: 0;
+padding-left: 24px;
+padding-top: 24px;
+}
+.card-title{
+  color: #000;
+font-family: Lato;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 24px;
+}
+.card-text{
+  color: #000;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 274px;
+padding-left: 24px;
+}
+.card-link{
+  color: #D52047;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+padding-left: 24px;
+}
+.socials{
+  width: 156px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-text{
+  padding-top: 32px;
+  color: #000;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer-text-wp{
+  color: #000;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
 }
