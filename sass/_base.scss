@@ -31,8 +31,9 @@
   &:hover {
     color: $main;
   }
-  @include sm{
+  @include sm {
     display: block;
+    padding-top: $padding-lg;
   }
 }
 .container {
@@ -61,6 +62,10 @@
   padding-top: $padding-xl * 2;
   padding-bottom: $padding-lg;
   font-family: $roboto;
+  @include md {
+    padding-top: $padding-xl * 1.8;
+    padding-right: $padding-sm;
+  }
 }
 .text-info {
   font-family: $roboto;
@@ -69,6 +74,9 @@
   color: $text;
   font-size: $base-font-size;
   padding-bottom: $padding-xl * 2;
+  @include sm {
+    padding-right: $padding-lg;
+  }
 }
 .h2 {
   font-family: $roboto;
@@ -135,11 +143,17 @@
   height: $base-height * 1.51;
 }
 .video {
-  padding-bottom: $padding-xl * 4;
-  width: $width-container;
-  height: $block-height / 1.16;
+  // padding-bottom: $padding-xl * 4;
+  // height: $block-height / 1.16;
   min-width: $width-container;
-  @include xl {
+  width: 100%;
+height: 600px;
+  @include qhd {
+    width: $width-container
+  }
+  @include sm {
+    width: 100%;
+    height: 400px;
   }
 }
 .name {
@@ -147,11 +161,11 @@
   font-weight: 400;
   line-height: 164.1%;
   font-family: $roboto;
-  font-size: $font-size-xl/1.52;
+  font-size: $font-size-xl / 1.52;
 }
 .c {
   color: $white;
-  font-size: $base-font-size/1.23;
+  font-size: $base-font-size / 1.23;
   font-family: $roboto;
 }
 .footer-content {
@@ -162,7 +176,8 @@
     padding-left: $padding-xl;
   }
   @include sm {
-    padding-left: 0px;
+    padding-left: $padding-sm;
+    padding-right: $padding-sm;
   }
 }
 .fcontainer {
@@ -175,15 +190,25 @@
   @include qhd {
     margin: $margin-center;
     display: inline-flex;
+    padding-top: $padding-xl * 3;
+    padding-left: $padding-xl * 5;
   }
 }
 .info-hdiw {
-  min-width: $width-container;
+  @include qhd {
+    min-width: $width-container;
+  }
 }
 .burger {
-    display: none;
-  
-    @include md {
-      display: inline;
-    }
+  display: none;
+  background-color: $main;
+  color: white;
+  font-family: $roboto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: $margin-xl;
+  margin-left: $margin-xl;
+  @include md {
+    display: inline;
   }
+}
