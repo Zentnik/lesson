@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500&family=Lato&family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+}
+.header {
+  width: $base-width;
+  height: $base-height;
+  background-color: $block;
+}
+.navbar {
+  width: $width-container;
+  margin: $margin-center;
+  height: $base-height;
+  font-size: $base-font-size;
+  text-decoration: none;
+  list-style-type: none;
+
+  @include sm {
+    display: none;
+  }
+}
+
+.butt {
+  padding-top: $padding-xl * 4;
+  display: inline;
+  margin-right: $margin-xl;
+  text-transform: uppercase;
+  font-family: $roboto;
+  vertical-align: middle;
+  &:hover {
+    color: $main;
+  }
+  @include sm{
+    display: block;
+  }
+}
+.container {
+  width: $width-container;
+  margin: 0 auto auto;
+
+  @include xl {
+    width: $base-width;
+  }
+}
+.btn {
+  background-color: $main;
+  color: $white;
+  font-size: $font-size-lg;
+  font-family: $roboto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.header-info {
+  width: $base-width;
+  height: $block-height;
+  background-color: $block;
+}
+.h1 {
+  font-size: $font-size-xl * 1.5;
+  padding-top: $padding-xl * 2;
+  padding-bottom: $padding-lg;
+  font-family: $roboto;
+}
+.text-info {
+  font-family: $roboto;
+  max-width: $max-width;
+  line-height: 164%;
+  color: $text;
+  font-size: $base-font-size;
+  padding-bottom: $padding-xl * 2;
+}
+.h2 {
+  font-family: $roboto;
+  text-align: center;
+  font-size: $font-size-xl;
+  padding-top: $padding-xl * 2;
+  padding-bottom: $padding-xl;
+}
+.text {
+  font-family: $roboto;
+  text-align: center;
+  font-size: $base-font-size;
+  max-width: $max-width;
+  color: $text;
+  margin: $margin-center;
+  padding-bottom: $padding-xl * 4;
+}
+.features {
+  width: $base-width;
+  background-color: $main;
+  height: $block-height / 2.8;
+}
+.h3-card {
+  color: $white;
+  font-size: $font-size-lg * 1.2;
+  font-family: $roboto;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  max-width: $large-width;
+  margin: $margin-center;
+  @include lg {
+    margin: $margin-center;
+    flex-wrap: wrap;
+  }
+}
+.card {
+  padding-top: $padding-xl * 3.3;
+  display: inline-flex;
+  @include lg {
+    padding-top: $padding-xl;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @include sm {
+    padding-top: $padding-lg;
+  }
+}
+.card-svg {
+  padding-right: $padding-sm;
+}
+.card-span {
+  font-size: $base-font-size;
+  font-weight: 300;
+}
+.how-do-i-work {
+  background-color: $block;
+  margin: $margin-center;
+}
+.footer {
+  background-color: $main;
+  width: $base-width;
+  height: $base-height * 1.51;
+}
+.video {
+  padding-bottom: $padding-xl * 4;
+  width: $width-container;
+  height: $block-height / 1.16;
+  min-width: $width-container;
+  @include xl {
+  }
+}
+.name {
+  color: $white;
+  font-weight: 400;
+  line-height: 164.1%;
+  font-family: $roboto;
+  font-size: $font-size-xl/1.52;
+}
+.c {
+  color: $white;
+  font-size: $base-font-size/1.23;
+  font-family: $roboto;
+}
+.footer-content {
+  padding-top: $padding-xl * 1.6;
+}
+.info-container {
+  @include xl {
+    padding-left: $padding-xl;
+  }
+  @include sm {
+    padding-left: 0px;
+  }
+}
+.fcontainer {
+  width: $width-container;
+  margin: $margin-center;
+
+  @include xl {
+    width: $base-width;
+  }
+  @include qhd {
+    margin: $margin-center;
+    display: inline-flex;
+  }
+}
+.info-hdiw {
+  min-width: $width-container;
+}
+.burger {
+    display: none;
+  
+    @include md {
+      display: inline;
+    }
+  }

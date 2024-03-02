@@ -1,0 +1,37 @@
+//main-colors
+$block: #EEEFF1 !default;
+$main: #34547A !default;
+$text: #727272;
+$white:#fff ;
+
+//width
+$base-width: 100%  !default;
+$large-width: 80%   !default;
+$width-container:1110px !default;
+$max-width:540px !default;
+
+//height
+$base-height: 100px !default;
+$block-height:700px !default;
+
+//margin
+$base-margin: 1em !default;
+$margin-sm: $base-margin * 0.75;
+$margin-lg: $base-margin * 1.5;
+$margin-xl:  $base-margin * 2;
+$margin-center: 0 auto auto  !default;
+
+//font-size
+$base-font-size: 16px;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.1;
+$font-size-xl: $base-font-size * 2;
+
+//font 
+$roboto: "Roboto", sans-serif;
+
+//padding
+$base-padding: 1em !default;
+$padding-sm: $base-padding * 0.75;
+$padding-lg: $base-padding * 1.3;
+$padding-xl:  $base-padding * 2;
